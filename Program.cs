@@ -4,8 +4,7 @@ string sexo;
 // Espacamento
 Console.WriteLine();
 
-/* Por algum motivo, quando digitando a altura com vírgula no console, a altura é convertida para um número inteiro 
-(1,73 vira 173, por exemplo). Não sei como resolver isso. Existe a possibilidade de ser um problema do Linux */
+
 Console.Write("Digite sua altura em metros: ");
 altura = Convert.ToDouble(Console.ReadLine());
 
